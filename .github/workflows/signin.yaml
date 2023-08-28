@@ -6,7 +6,7 @@ on:
    # 所以每天国际时间 16:01 运行一次, 中国时间 00:01
     - cron: '01 16 * * *'
   workflow_dispatch:
-jobs:
+ # jobs:
   signin:
     name: Aliyun Signin
     runs-on: ubuntu-latest
